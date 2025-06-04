@@ -123,7 +123,7 @@ theme.set_highlights = function()
 
 
   -- Treesitter
-  hl(0, "@comment", { fg = c.green_1, bg = 'NONE', italic = true, })
+  hl(0, "@comment", { fg = c.green_3, bg = 'NONE', italic = true, })
   hl(0, "@none", { fg = 'NONE', bg = 'NONE' })
   hl(0, "@preproc", { link = 'PreProc' })
   hl(0, "@define", { link = 'Define' })
