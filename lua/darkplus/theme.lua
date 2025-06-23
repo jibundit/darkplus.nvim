@@ -38,8 +38,10 @@ theme.set_highlights = function()
   hl(0, "DiffDelete", { fg = 'NONE', bg = c.error_bg })
   hl(0, "PmenuSbar", { fg = 'NONE', bg = c.alt_bg })
   hl(0, "PmenuThumb", { fg = 'NONE', bg = c.light_gray })
-  hl(0, "Cursor", { fg = c.bg, bg = c.fg })
+
+  hl(0, "Cursor", { fg = c.bg, bg = c.fg, bold = true })
   hl(0, "lCursor", { fg = c.bg, bg = c.fg })
+
   hl(0, "CursorIM", { fg = c.bg, bg = c.fg })
   hl(0, "TermCursor", { fg = c.bg, bg = c.fg })
   hl(0, "TermCursorNC", { fg = c.bg, bg = c.fg })
@@ -288,10 +290,10 @@ theme.set_highlights = function()
   hl(0, "MatchWord", { fg = 'NONE', bg = c.reference })
   hl(0, "MatchWordCur", { fg = 'NONE', bg = c.reference })
 
-  hl(0, "MatchParen", { fg = 'NONE', bg = c.visual })
-  hl(0, "MatchParenCur", { fg = 'NONE', bg = c.visual })
-  -- hl(0, "MatchParen", { fg = 'NONE', bg = c.red5 })
-  -- hl(0, "MatchParenCur", { fg = 'NONE', bg = c.red5 })
+  -- hl(0, "MatchParen", { fg = 'NONE', bg = c.visual })
+  -- hl(0, "MatchParenCur", { fg = 'NONE', bg = c.visual })
+  hl(0, "MatchParen", { fg = c.alt_fg, bg = c.red, bold = true })
+  -- hl(0, "MatchParenCur", { fg = '#F93485', bg = '#FD3A2D' })
 
   -- IndentBlankline
   hl(0, "IblIndent", { fg = c.indent, bg = 'NONE' })
