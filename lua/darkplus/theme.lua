@@ -129,7 +129,7 @@ theme.set_highlights = function()
   hl(0, "@define", { link = 'Define' })
   hl(0, "@operator", { link = 'Operator' })
   hl(0, "@punctuation.delimeter", { fg = c.red, bg = 'NONE' })
-  hl(0, "@punctuation.bracket", { fg = c.red, bg = 'NONE' })
+  hl(0, "@punctuation.bracket", { fg = c.red1, bg = 'NONE' })
 
   -- hl(0, "@punctuation.delimeter", { link = 'Delimiter' })
   -- hl(0, "@punctuation.bracket", { link = 'Delimiter' })
@@ -287,8 +287,11 @@ theme.set_highlights = function()
 
   hl(0, "MatchWord", { fg = 'NONE', bg = c.reference })
   hl(0, "MatchWordCur", { fg = 'NONE', bg = c.reference })
+
   hl(0, "MatchParen", { fg = 'NONE', bg = c.visual })
   hl(0, "MatchParenCur", { fg = 'NONE', bg = c.visual })
+  -- hl(0, "MatchParen", { fg = 'NONE', bg = c.red5 })
+  -- hl(0, "MatchParenCur", { fg = 'NONE', bg = c.red5 })
 
   -- IndentBlankline
   hl(0, "IblIndent", { fg = c.indent, bg = 'NONE' })
