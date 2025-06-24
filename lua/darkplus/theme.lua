@@ -293,7 +293,7 @@ theme.set_highlights = function()
   -- hl(0, "MatchParen", { fg = 'NONE', bg = c.visual })
   -- hl(0, "MatchParenCur", { fg = 'NONE', bg = c.visual })
   hl(0, "MatchParen", { fg = c.alt_fg, bg = c.red, bold = true })
-  -- hl(0, "MatchParenCur", { fg = '#F93485', bg = '#FD3A2D' })
+  hl(0, "MatchParenCur", { fg = c.alt_fg, bg = c.red, bold = true })
 
   -- IndentBlankline
   hl(0, "IblIndent", { fg = c.indent, bg = 'NONE' })
