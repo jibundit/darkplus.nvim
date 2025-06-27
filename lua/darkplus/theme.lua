@@ -357,7 +357,8 @@ theme.set_highlights = function()
   hl(0, "GitSignsDelete", { fg = c.gitsigns_delete, bg = 'NONE' })
 
   -- Cmp
-  hl(0, "CmpItemAbbrDeprecated", { fg = "#999999", bg = 'NONE', strikethrough = true, })
+  hl(0, "CmpItemAbbrDeprecated", { fg = c.red, bg = 'NONE', strikethrough = true, })
+  --original hl(0, "CmpItemAbbrDeprecated", { fg = "#999999", bg = 'NONE', strikethrough = true, })
   hl(0, "CmpItemAbbrMatch", { fg = c.match, bg = 'NONE' })
   hl(0, "CmpItemAbbrMatchFuzzy", { fg = c.match, bg = 'NONE' })
   hl(0, "CmpDocumentation", { fg = c.fg, bg = c.alt_bg })
