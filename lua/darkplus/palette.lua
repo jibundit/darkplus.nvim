@@ -12,6 +12,7 @@ local colors = {
     -- red = "#d16969",
     red = "#C84034",
     red1 = "#FF9B99",
+    red3 = "#712F37",
     red5 = "#E02C84",
     cyan = "#4EC9B0",
     orange = "#CE9178",
