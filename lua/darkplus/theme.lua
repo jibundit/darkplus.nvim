@@ -39,8 +39,10 @@ theme.set_highlights = function()
   hl(0, "PmenuSbar", { fg = 'NONE', bg = c.alt_bg })
   hl(0, "PmenuThumb", { fg = 'NONE', bg = c.light_gray })
 
-  hl(0, "Cursor", { fg = c.bg, bg = c.fg, bold = true })
+  hl(0, "Cursor", { fg = c.ui_white, bg = c.red3, bold = true })
+  -- hl(0, "Cursor", { fg = c.bg, bg = c.fg, bold = true })
   hl(0, "lCursor", { fg = c.bg, bg = c.fg })
+  -- hl(0, "MatchParen", { fg = c.ui_white, bg = c.red3, bold = true })
 
   hl(0, "CursorIM", { fg = c.bg, bg = c.fg })
   hl(0, "TermCursor", { fg = c.bg, bg = c.fg })
