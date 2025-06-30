@@ -292,10 +292,8 @@ theme.set_highlights = function()
   hl(0, "MatchWord", { fg = 'NONE', bg = c.reference })
   hl(0, "MatchWordCur", { fg = 'NONE', bg = c.reference })
 
-  -- hl(0, "MatchParen", { fg = 'NONE', bg = c.visual })
-  -- hl(0, "MatchParenCur", { fg = 'NONE', bg = c.visual })
-  -- hl(0, "MatchParen", { fg = c.alt_fg, bg = c.red, bold = true })
-  hl(0, "MatchParen", { fg = c.ui_white, bg = c.red3, bold = true })
+  -- hl(0, "MatchParen", { fg = c.ui_white, bg = c.red3, bold = true })
+  -- hl(0, "MatchParen", { fg = c.red, bg = c.red3, bold = true })
   hl(0, "MatchParenCur", { fg = c.alt_fg, bg = c.red3, bold = true })
 
   -- IndentBlankline
